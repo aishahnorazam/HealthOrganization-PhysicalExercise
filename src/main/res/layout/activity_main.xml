@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/toolbar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/gym"
+            android:layout_width="wrap_content"
+            android:layout_height="191dp"
+            android:layout_margin="3dip"
+            android:alpha="0.5"
+            android:background="@drawable/border_shadow"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/gym" />
+
+        <ImageView
+            android:id="@+id/hydro"
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:layout_margin="3dip"
+            android:alpha="0.5"
+            android:background="@drawable/border_shadow"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/hydro" />
+
+        <ImageView
+            android:id="@+id/strongman"
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:layout_margin="3dip"
+            android:alpha="0.5"
+            android:background="@drawable/border_shadow"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/strongman" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        ></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+

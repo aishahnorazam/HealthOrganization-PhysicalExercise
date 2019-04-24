@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraText"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:title="@string/BOOKING"
+            android:id="@+id/nav_booking">
+        <menu>
+
+        <item
+            android:id="@+id/nav_gym"
+            android:icon="@drawable/ic_booking"
+            android:title="@string/GYM_CENTER" />
+
+        <item
+            android:id="@+id/nav_hydro"
+            android:icon="@drawable/ic_hydro"
+            android:title="@string/HYDROTHERAPY_CENTER" />
+
+        <item
+            android:id="@+id/nav_strongman"
+            android:icon="@drawable/ic_strongman"
+            android:title="@string/STRONGMAN_CENTER" />
+        </menu>
+        </item>
+    </group>
+
+
+
+        <item android:title="DETAILS" >
+        <menu>
+
+            <item
+                android:id="@+id/nav_highlight"
+                android:icon="@drawable/ic_highlight"
+                android:title="@string/HIGHLIGHTS" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="@string/CONTACT_US" />
+
+        </menu>
+        </item>
+
+
+</menu>

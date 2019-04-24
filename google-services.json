@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1053766279626",
+    "firebase_url": "https://hope-666a3.firebaseio.com",
+    "project_id": "hope-666a3",
+    "storage_bucket": "hope-666a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053766279626:android:8c3d1eed6fe88074",
+        "android_client_info": {
+          "package_name": "com.wenlong.hope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053766279626-dno397cd4sak89ib7e04okmcj9tvbbd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wenlong.hope",
+            "certificate_hash": "73606948630110895c9aa94291f03a1cc896aab4"
+          }
+        },
+        {
+          "client_id": "1053766279626-o7tilrfadshmiikdiqudgnn2qccqd16f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCVplSKQZHVSmUYd-HmdXRV4OmukcdrZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053766279626-o7tilrfadshmiikdiqudgnn2qccqd16f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

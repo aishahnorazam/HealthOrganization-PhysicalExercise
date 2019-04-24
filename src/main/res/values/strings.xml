@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">HOPE</string>
+    <string name="GYM">GYM</string>
+    <string name="HYDROTHERAPY">HYDROTHERAPY</string>
+    <string name="STRONGMAN">STRONGMAN</string>
+    <string name="GYM_CENTER">LAB FITNESS GYM</string>
+    <string name="gymDetail">
+        <ul>
+            <li>" TIME : 5PM TO 10PM\n "</li>
+            <li>"LOCATION: WING C, LEVEL 2\n"</li>
+            <li>"PRICE : RM5   (STUDENT)
+                  RM7   (STUFF)
+                  RM10  (PUBLIC) \n"</li>
+            <li>"GROUP RATE: CHARGE PER HEAD (DAILY)
+                             RM250-DEPOSIT RM50 (WEEKLY)\n"</li>
+            <li>"CAPACITY : 15 PEOPLE\n"</li>
+            "**AVAILABLE FOR INDIVIDUAL AND GROUP BOOKING"
+        </ul>
+    </string>
+
+    <string name="hydroDetail">
+        <ul>
+            <li>"TIME :5PM TO 10PM\n"</li>
+            <li>"LOCATION: WING C, LEVEL 1\n"</li>
+            <li>"PRICE : RM5   (STUDENT)
+                  RM7   (STUFF)
+                  RM10  (PUBLIC) \n"</li>
+            <li>"GROUP RATE: CHARGE PER HEAD (DAILY)
+                             RM250-DEPOSIT RM50 (WEEKLY)\n"</li>
+            <li>"CAPACITY : 15 PEOPLE\n"</li>
+            "**ONLY AVAILABLE FOR GROUP BOOKING"
+        </ul>
+    </string>
+    <string name="strongmanDetail">
+         <ul>
+            <li>"TIME :5PM TO 10PM \n"</li>
+            <li>"LOCATION: BEHIND BUILDING FBME ,WING C, LEVEL 1\n"</li>
+            <li>"PRICE : RM5   (STUDENT)
+                  RM7   (STUFF)
+                  RM10  (PUBLIC) \n"</li>
+            <li>"GROUP RATE: CHARGE PER HEAD (DAILY)
+                             RM250-DEPOSIT RM50 (WEEKLY)\n"</li>
+            <li>"CAPACITY : 15 PEOPLE\n"</li>
+            <li>"**ONLY AVAILABLE FOR GROUP BOOKING"</li>
+        </ul>
+    </string>
+    <string name="HYDROTHERAPY_CENTER">LAB HYDROTHERAPY</string>
+    <string name="BOOK">BOOK</string>
+    <string name="STRONGMAN_CENTER">OUTDOOR EXERCISE AREA</string>
+    <string name="title_activity_gym_page">GymPage</string>
+    <string name="title_activity_hydro_page">HydroPage</string>
+    <string name="title_activity_strong_man_page">StrongManPage</string>
+    <string name="HIGHLIGHTS">HIGHLIGHT</string>
+    <string name="CONTACT_US">CONTACT US</string>
+    <string name="BOOKING">BOOKING</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_gym_info">GymInfo</string>
+    <string name="title_activity_hydro_info">HydroInfo</string>
+    <string name="title_activity_strongman_info">StrongmanInfo</string>
+    <string name="fillIn">Please Fill In Your Information </string>
+    <string name="submit">SUBMIT</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_ID">Booking ID</string>
+    <string name="Choose_Date">Choose Your Booking Date</string>
+    <string name="Slot">SELECTED DATE</string>
+    <string name="Confirmation">Please Confirm Your Information</string>
+    <string name="BookingConfirmation">Booking Confirmation</string>
+    <string name="Facilities">Facilities</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Status">Status</string>
+    <string name="Student">Student</string>
+    <string name="Staff">Staff</string>
+    <string name="Public">Public</string>
+    <string name="TypeofBooking">Type Of Booking</string>
+    <string name="SingleBooking">Single Booking</string>
+    <string name="GroupBooking">Group Booking</string>
+    <string name="GroupAmount">Amount of People</string>
+    <string name="TypeOfBooking">Booking Type</string>
+    <string name="Price">Price</string>
+    <string name="Location">LOCATION</string>
+    <string name="MR_ROBIN">MR ROBIN</string>
+    <string name="DR_HADAFI">DR HADAFI</string>
+    <string name="robin_phone"><u>011-1271 6790</u></string>
+    <string name="hadafi_phone"><u>012-501 5090</u></string>
+    <string name="TotalNumber">Total People(MAX - 15)</string>
+    <string name="Tnumber">Total People</string>
+    <string name="matrix">UTM Matrix Number</string>
+    <string name="LISTRA">
+        LISTRA consist of 5 members, which are\n
+        <ul>
+            <li><b>Aishah Aini</b> --- Back End Programmer\n</li>
+            <li><b>Hafiz Zamri</b> --- Front End Designer\n</li>
+            <li><b>Gabriell Tanin</b>  --- Team Leader\n</li>
+            <li><b>Teo Wen Long</b> --- Head Programmer\n</li>
+            <li><b>Syaza Ainun</b> --- Documentation\n</li>
+        </ul>
+    </string>
+</resources>
